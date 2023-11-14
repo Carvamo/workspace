@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #8f8787;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: decimal;
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
