@@ -2,12 +2,12 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     color: #333;
-    background-color: #8f8787;
+    background-color: #ffffff;
     text-align: center;
   }
   
   h1 {
-    font-size: 24px;
+    font-size: 50px;
     text-align: center;
   }
   
@@ -21,11 +21,12 @@ body {
   }
   
   img {
-    width: 200px;
-    height: 200px;
-    align-items: center;
+    width: 400px;
+    height: 400px;
+    align-items:first baseline;
   }
   
   p {
     margin-bottom: 20px;
+    
   }
