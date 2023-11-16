@@ -1,32 +1,47 @@
+html {
+  font-family: 'Arimo', sans-serif;
+}
 body {
+    margin: 0;
     font-size: 16px;
     font-family: sans-serif;
     color: #333;
-    background-color: #ffffff;
-    text-align: center;
+    background-color: #d5e9fa;
   }
   
+  header {
+    background-color: #24445e;
+    color: white;
+    padding: 3rem 2rem;
+  }
   h1 {
     font-size: 50px;
     text-align: center;
   }
-  
-  ul {
-    list-style-type: decimal;
-    text-align: center;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  img {
+  .container {
     width: 400px;
-    height: 400px;
-    align-items:first baseline;
+    margin: auto;
   }
-  
-  p {
-    margin-bottom: 20px;
-    
+  section article{
+    transition: box-shadow 0.3s ease;
+    background-color: azure;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0;
+    cursor: pointer;
+  }
+  section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+  }
+  section article h2, section article p{
+    margin: 1rem;
+
+  }
+  section article img{
+    width: 400px;
+  }
+  footer {
+    background-color: #333;
+    padding: 3rem;
+    color:azure;
   }
