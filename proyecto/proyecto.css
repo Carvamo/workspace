@@ -14,6 +14,7 @@ img{
 .perfil{
     background-color: aliceblue;
     padding-top: 50px;
+    margin: auto;
 }
 .perfil div{
     display: inline-block;
@@ -22,4 +23,19 @@ img{
 .info_usuario{
     margin: auto;
     border-bottom: 30px;
+}
+.certificados{
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: auto;
+}
+.referencia p{
+    display: inline-block;
+    padding: 10px;
+}
+h2{
+    padding: 10px;
 }
