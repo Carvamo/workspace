@@ -1,0 +1,25 @@
+body{
+    padding: auto;
+    background-color: rgb(226, 252, 252);
+}
+header{
+    margin:auto;
+    padding: auto;
+    max-width: 500px;
+}
+img{
+    width: 130px;
+    padding: auto;
+}
+.perfil{
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+.perfil div{
+    display: inline-block;
+    padding-left: 10px;
+}
+.info_usuario{
+    margin: auto;
+    border-bottom: 30px;
+}
