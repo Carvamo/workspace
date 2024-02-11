@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBconexion {
     public static void main(String[] args) {
         String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        String DB_URL = "jdbc:mysql://localhost:3306/proyecto";
+        String DB_URL = "jdbc:mysql://127.0.0.1:3306/proyecto";
         String USER = "root";
         String PASS = "Aaron1234";
 
@@ -21,7 +21,7 @@ public class DBconexion {
             System.out.println("Conectando a la Base de Datos...");
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
-            String insertQuery = "INSERT INTO Referencia (token_id_IMEI, nombre, memoria_ram, procesador, almacenamiento, color) VALUES ('1234567890', 'G21', '6GB', 'Snapdragon 625', '256GB', 'Azul')";
+            String insertQuery = "INSERT INTO Referencia (nombre, memoria_ram, procesador, almacenamiento, color) VALUES (1234567890, 'G21', 6144, 'Snapdragon 625', 262144, 'Azul')";
             stmt = conn.prepareStatement(insertQuery);
             stmt.executeUpdate();
             System.out.println("Referencia creada correctamente.");
