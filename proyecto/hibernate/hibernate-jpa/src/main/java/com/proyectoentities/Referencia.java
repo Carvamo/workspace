@@ -6,24 +6,24 @@ import javax.persistence.*;
 @Table(name="Referencia")
 public class Referencia {
     @Id
-    @Column(name=token_id_IMEI)
-    private string token_id_IMEI;
-    @Column(name=nombre)
-    private string nombre;
-    @Column(name=memoria_ram)
+    @Column(name="token_id_IMEI")
+    private String token_id_IMEI;
+    @Column(name="nombre")
+    private String nombre;
+    @Column(name="memoria_ram")
     private int memoria_ram;
-    @Column(name+procesador)
-    private string procesador;
-    @Column(name=almacenamiento)
+    @Column(name="procesador")
+    private String procesador;
+    @Column(name="almacenamiento")
     private int almacenamiento;
-    @Column(name=color)
-    private string color;
+    @Column(name="color")
+    private String color;
 
     public Referencia(){
 
     }
 
-    public Referencia(string token_id_IMEI, string nombre, int memoria_ram, string procesador, int almacenamiento, string color) {
+    public Referencia(String token_id_IMEI, String nombre, int memoria_ram, String procesador, int almacenamiento, String color) {
         this.token_id_IMEI = token_id_IMEI;
         this.nombre = nombre;
         this.memoria_ram = memoria_ram;
@@ -32,19 +32,19 @@ public class Referencia {
         this.color = color;
     }
 
-    public string getToken_id_IMEI() {
+    public String getToken_id_IMEI() {
         return token_id_IMEI;
     }
 
-    public void setToken_id_IMEI(string token_id_IMEI) {
+    public void setToken_id_IMEI(String token_id_IMEI) {
         this.token_id_IMEI = token_id_IMEI;
     }
 
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(string nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
@@ -56,11 +56,11 @@ public class Referencia {
         this.memoria_ram = memoria_ram;
     }
 
-    public string getProcesador() {
+    public String getProcesador() {
         return procesador;
     }
 
-    public void setProcesador(string procesador) {
+    public void setProcesador(String procesador) {
         this.procesador = procesador;
     }
 
@@ -72,23 +72,23 @@ public class Referencia {
         this.almacenamiento = almacenamiento;
     }
 
-    public string getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(string color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
     @Override
     public String toString() {
         return "Referencia{" +
-                "token_id_IMEI=" + token_id_IMEI +
-                ", nombre=" + nombre +
+                "token_id_IMEI='" + token_id_IMEI + '\'' +
+                ", nombre='" + nombre + '\'' +
                 ", memoria_ram=" + memoria_ram +
-                ", procesador=" + procesador +
+                ", procesador='" + procesador + '\'' +
                 ", almacenamiento=" + almacenamiento +
-                ", color=" + color +
+                ", color='" + color + '\'' +
                 '}';
     }
 }
